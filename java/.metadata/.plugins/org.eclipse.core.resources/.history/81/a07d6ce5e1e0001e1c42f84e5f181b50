@@ -1,0 +1,15 @@
+package collage_programes;
+
+public class AutoUnboxing {
+
+	public static void main(String[] args) {
+		int i=5;
+		Integer a=new Integer(i);
+		System.out.println(a);
+		
+		Integer b=new Integer(50);
+		int c=b;
+		System.out.println(b+" "+c);
+	}
+
+}

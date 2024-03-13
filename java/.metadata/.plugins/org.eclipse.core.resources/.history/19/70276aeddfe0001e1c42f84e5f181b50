@@ -1,0 +1,20 @@
+package collage_programes;
+
+public class Constructors {
+	String lang;
+	String name;
+	//parameter constructor
+	Constructors(String language){
+		lang=language;
+		System.out.println(lang+" Programming language");
+	}
+	//Default constructor
+	Constructors(){
+		System.out.println("The default constructor");
+	}
+	public static void main(String[] args) {
+		Constructors s1=new Constructors("Java");
+		System.out.println(s1);
+	}
+	
+}

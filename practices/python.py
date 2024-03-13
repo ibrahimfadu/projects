@@ -1,13 +1,16 @@
-def search(arr,key):
-    n=len(arr)
-    for i in range(0,n):
-        if key==arr[i]:
-            return i
-    return -1
-arr=[20,30,50,10,40]
-key=40
-result=search(arr,key)
-if result == -1:
-    print ("Key is there not there in the Array")
-else :
-    print("Key is present in the array")
+class Node:
+    def __init__(self,data=None):
+        self.data=data
+        self.next=None
+class linkedlist:
+    def __init__(self):
+        self.data=None
+
+def insertvalue(self,data):
+    temp=Node(data)
+    temp.next=self.first
+    self.first=temp
+def display(self):
+    if(self.first==None):
+        print("list is empty")
+        return
